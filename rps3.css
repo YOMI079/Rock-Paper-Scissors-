@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(106, 85, 126);
+    font-family: sans-serif;
+}
+center{
+    padding: 120px;
+}
+.rock{
+    height: 50px;
+}
+.paper{
+    height: 50px;
+}
+.Scissor{
+    height: 50px; 
+}
+.move-button{
+    background-color: transparent;
+    border:2px dotted white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.move-icon img {
+     height: 25px;
+}
+.reset-score-button{
+    padding: 12px;
+    cursor: pointer;
+}
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+.score{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+}
